@@ -2,5 +2,5 @@ pipelines:
   default:
     - step:
         script:
-          - mvn -B clean install
+          - mvn -B clean package install
           - curl -X POST "https://${BB_AUTH_STRING}@api.bitbucket.org/2.0/repositories/${BITBUCKET_REPO_OWNER}/${BITBUCKET_REPO_SLUG}/downloads" --form files=@"target/VoteSender.jar"
