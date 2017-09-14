@@ -3,4 +3,4 @@ pipelines:
     - step:
         script:
           - mvn -B clean install
-          - curl -X POST "https://${BB_AUTH_STRING}@api.bitbucket.org/2.0/repositories/${BITBUCKET_REPO_OWNER}/${BITBUCKET_REPO_SLUG}/downloads/${project.version}" --form files=@"target/CubedCore.jar"
+          - curl -X POST "https://${BB_AUTH_STRING}@api.bitbucket.org/2.0/repositories/${BITBUCKET_REPO_OWNER}/${BITBUCKET_REPO_SLUG}/downloads/${project.version}" --form files=@"target/VoteSender.jar"
