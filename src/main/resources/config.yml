@@ -1,0 +1,21 @@
+Servers:
+  Factions:
+    # This is the IP of the server where the vote needs to be sent to.
+    # Note that this only needs to be the IP.
+    IP: '127.0.0.1'
+    # This is the VOTIFIER Port, not the Server port.
+    Port: 8751
+    # This is the PUBLIC key of the server where you send the vote to. (The default one is just random).
+    Key: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtrQP9gxFqSUhq11udUjPLOiC7Xx9YqT/fZxLaJdM9yD9h0LDEGl60kPRqVpmfq/jJqAoW1pO4co/APc+U4b+5jl5ZuEoiyByfPLBnLfajo5QUxdh6mReQnFHUEK2lXscUx7+j55HVieyZcrX6jVnwcaKLAeTYalhLgj0TeyaXXy/nRUDgitYp2VwhlCG1ktsYWp4MHvOqFx5YbX9yKHi44BddQs/XBBwAyQvBDAoaCK7YaNSTD/39CPgiRs1qs1pqCGBZTGwBuN1ATsn8N4guTFOTUUb1YqE59DKePtn8PSc7OMmB5Yg8wsfOPwJZQi1PWqKkDxGThPDmieJZQflVQIDAQAB'
+    # This is if you want a custom service name. This can be empty if you want to have the vote service.
+    Service: 'CustomServiceName'
+  Testing:
+    # This is the IP of the server where the vote needs to be sent to.
+    # Note that this only needs to be the IP.
+    IP: '127.0.0.1'
+    # This is the VOTIFIER Port, NOT the Server port.
+    Port: 8704
+    # This is the PUBLIC key of the server where you send the vote to. (The default one is just random).
+    Key: 'MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtrQP9gxFqSUhq11udUjPLOiC7Xx9YqT/fZxLaJdM9yD9h0LDEGl60kPRqVpmfq/jJqAoW1pO4co/APc+U4b+5jl5ZuEoiyByfPLBnLfajo5QUxdh6mReQnFHUEK2lXscUx7+j55HVieyZcrX6jVnwcaKLAeTYalhLgj0TeyaXXy/nRUDgitYp2VwhlCG1ktsYWp4MHvOqFx5YbX9yKHi44BddQs/XBBwAyQvBDAoaCK7YaNSTD/39CPgiRs1qs1pqCGBZTGwBuN1ATsn8N4guTFOTUUb1YqE59DKePtn8PSc7OMmB5Yg8wsfOPwJZQi1PWqKkDxGThPDmieJZQflVQIDAQAB'
+    # This is if you want a custom service name. This can be empty if you want to have the vote service.
+    Service: ''
