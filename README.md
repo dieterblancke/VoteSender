@@ -8,6 +8,10 @@ VoteSender requires the following in order to run:
 - **Last (Paper-)Spigot version**
 - **NuVotifier (or Votifier 1.9)**
 
+* Red 
++ Green 
+- Blue
+
 ## Important ##
 **Never** enter the Votifier settings of the server in which VoteSender is installed, this **will** cause **an endless vote loop**.
 This means that VoteSender will create a vote loop making votes continously send to all your servers installed in VoteSender.
