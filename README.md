@@ -4,13 +4,10 @@ VoteSender is a simple & lighweight plugin that allows you to send votes (receiv
 
 ## Dependencies ##
 VoteSender requires the following in order to run:
-- **Java 8**
-- **Last (Paper-)Spigot version**
-- **NuVotifier (or Votifier 1.9)**
 
-* Red 
-+ Green 
-- Blue
+* Java 8 
++ Last (Paper)Spigot version 
+- NuVotifier (or Votifier 1.9)
 
 ## Important ##
 **Never** enter the Votifier settings of the server in which VoteSender is installed, this **will** cause **an endless vote loop**.
