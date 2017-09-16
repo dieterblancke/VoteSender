@@ -15,6 +15,7 @@ This means that VoteSender will create a vote loop making votes continously send
 
 ## Commands ##
 For all commands, the permission **votesend.admin** is required!
+
 * /votesend reload 
 + /votesend send (player) (service) 
 - /votesend help
