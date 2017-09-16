@@ -32,14 +32,14 @@ public class VoteProcessor extends BukkitRunnable {
         VoteSender instance = VoteSender.getInstance();
 
         for (VoteServer server : instance.getServers()) {
-            if (server.getIP().length() == 0) {
+            if (server.getIP().isEmpty()) {
                 continue;
             }
             Socket socket = null;
             OutputStream output = null;
 
             try {
-                if (server.getService().length() > 0) {
+                if (!server.getService().isEmpty()) {
                     vote.setServiceName(server.getService());
                 }
                 String vs = "VOTE\n" + vote.getServiceName() + "\n" + vote.getUsername() + "\n" + vote.getAddress() + "\n" + vote.getTimeStamp() + "\n";

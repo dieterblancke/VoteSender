@@ -48,6 +48,7 @@ public class VoteSender extends JavaPlugin {
     }
 
     public void reload() {
+        reloadConfig();
         servers.clear();
 
         debug = getConfig().getBoolean("debug");
