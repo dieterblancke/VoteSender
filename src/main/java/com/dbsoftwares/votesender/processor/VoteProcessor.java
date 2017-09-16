@@ -8,7 +8,7 @@ package com.dbsoftwares.votesender.processor;
 
 import com.dbsoftwares.votesender.VoteSender;
 import com.dbsoftwares.votesender.server.VoteServer;
-import com.vexsoftware.votifier.crypto.RSA;
+import com.dbsoftwares.votesender.utils.Utilities;
 import com.vexsoftware.votifier.model.Vote;
 import org.bukkit.scheduler.BukkitRunnable;
 
@@ -48,9 +48,11 @@ public class VoteProcessor extends BukkitRunnable {
                 socket.connect(new InetSocketAddress(server.getIP(), server.getPort()), 1000);
 
                 output = socket.getOutputStream();
-                output.write(RSA.encrypt(vs.getBytes(), server.getKey()));
+                output.write(Utilities.encrypt(vs.getBytes(), server.getKey()));
 
-                instance.getLogger().info("[VoteSend] A vote has been sent to " + server + ": " + vote.toString());
+                if (instance.getDebug()) {
+                    instance.getLogger().info("[VoteSender] A vote has been sent to " + server.getName() + "(" + server.getIP() + ":" + server.getPort() + "): " + vote.toString());
+                }
             } catch (Exception e) {
                 e.printStackTrace();
             } finally {

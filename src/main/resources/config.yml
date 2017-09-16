@@ -1,3 +1,6 @@
+# Set to true if you want VoteSender to log all the votes it sends through to the console.
+debug: false
+
 Servers:
   Factions:
     # This is the IP of the server where the vote needs to be sent to.

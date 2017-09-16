@@ -19,11 +19,13 @@ import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
+
 import java.util.List;
 
 public class VoteSender extends JavaPlugin {
 
     @Getter private static VoteSender instance;
+    @Getter private Boolean debug;
     @Getter private List<VoteServer> servers = Lists.newArrayList();
 
     @Override
@@ -48,12 +50,13 @@ public class VoteSender extends JavaPlugin {
     public void reload() {
         servers.clear();
 
+        debug = getConfig().getBoolean("debug");
+
         ConfigurationSection scs = getConfig().getConfigurationSection("Servers");
         for (String server : scs.getKeys(false)) {
             ConfigurationSection cs = scs.getConfigurationSection(server);
-            if (cs != null) {
-                servers.add(new VoteServer(server.toLowerCase(), Utilities.getPublicKey(cs.getString("Key")), cs.getString("IP"), cs.getInt("Port"), cs.getString("Service")));
-            }
+
+            servers.add(new VoteServer(server.toLowerCase(), Utilities.getPublicKey(cs.getString("Key")), cs.getString("IP"), cs.getInt("Port"), cs.getString("Service")));
         }
     }
 }
