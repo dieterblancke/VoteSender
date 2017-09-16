@@ -4,9 +4,9 @@ VoteSender is a simple & lighweight plugin that allows you to send votes (receiv
 
 ## Dependencies ##
 VoteSender requires the following in order to run:
-* Java 8
-* Last (Paper-)Spigot version
-* NuVotifier (or Votifier 1.9)
+- **Java 8**
+- **Last (Paper-)Spigot version**
+- **NuVotifier (or Votifier 1.9)**
 
 ## Important ##
 **Never** enter the Votifier settings of the server in which VoteSender is installed, this **will** cause **an endless vote loop**.
@@ -14,9 +14,9 @@ This means that VoteSender will create a vote loop making votes continously send
 
 ## Commands ##
 For all commands, the permission **votesend.admin** is required!
-* /votesend reload
-* /votesend send (player) (service)
-* /votesend help
+- **/votesend reload**
+- **/votesend send (player) (service)**
+- **/votesend help**
 
 ## Configuration ##
 The default configuration can be found by clicking [**here**](https://bitbucket.org/didjee2/votesender/src/fd9269d0cb18b5e143db477f6b02e1af488e0227/src/main/resources/config.yml?at=master&fileviewer=file-view-default)!
