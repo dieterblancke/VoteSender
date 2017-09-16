@@ -1,6 +1,6 @@
 # VoteSender #
 
-VoteSender is a simple & lighweight plugin that allows you to send votes (received by (Nu)Votifier) to other (Nu)Votifier servers.
+VoteSender is a simple & lightweight plugin that allows you to send votes (received by (Nu)Votifier) to other (Nu)Votifier servers.
 
 ## Dependencies ##
 VoteSender requires the following in order to run:
