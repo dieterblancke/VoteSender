@@ -15,9 +15,9 @@ This means that VoteSender will create a vote loop making votes continously send
 
 ## Commands ##
 For all commands, the permission **votesend.admin** is required!
-- **/votesend reload**
-- **/votesend send (player) (service)**
-- **/votesend help**
+* /votesend reload 
++ /votesend send (player) (service) 
+- /votesend help
 
 ## Configuration ##
 The default configuration can be found by clicking [**here**](https://bitbucket.org/didjee2/votesender/src/fd9269d0cb18b5e143db477f6b02e1af488e0227/src/main/resources/config.yml?at=master&fileviewer=file-view-default)!
