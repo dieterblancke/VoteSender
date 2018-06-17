@@ -29,9 +29,9 @@ If you have any problems or errors concerning one of my plugins. You can always 
 ## Donate ##
 If you want to support me, you can by clicking on a link below!
 
-* [**Support € 5**](https://paypal.me/didjee2/5)
-* [**Support € 10**](https://paypal.me/didjee2/10)
-* [**Support € 15**](https://paypal.me/didjee2/15)
-* [**Support € 20**](https://paypal.me/didjee2/20)
-* [**Support € 25**](https://paypal.me/didjee2/25)
-* [**Choose your amount**](https://paypal.me/didjee2)
+* [**Support € 5**](https://paypal.me/dbsoftware/5)
+* [**Support € 10**](https://paypal.me/dbsoftware/10)
+* [**Support € 15**](https://paypal.me/dbsoftware/15)
+* [**Support € 20**](https://paypal.me/dbsoftware/20)
+* [**Support € 25**](https://paypal.me/dbsoftware/25)
+* [**Choose your amount**](https://paypal.me/dbsoftware)
