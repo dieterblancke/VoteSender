@@ -19,4 +19,5 @@ public class VoteServer {
     private String IP;
     private int port;
     private String service;
+
 }
